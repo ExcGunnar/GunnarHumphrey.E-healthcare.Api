@@ -6,10 +6,7 @@ namespace ProjectManagement.Data
 {
     public class ProjectManagementContext : DbContext
     {
-        public ProjectManagementContext(DbContextOptions options) : base(options)
-        {
-
-        }
+        public ProjectManagementContext(DbContextOptions options) : base(options) { }
 
         public void SeedInitialData()
         {

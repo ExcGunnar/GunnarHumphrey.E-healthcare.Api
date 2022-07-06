@@ -30,6 +30,7 @@ namespace ProjectManagement.Api
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    webBuilder.
                 });
     }
 }
